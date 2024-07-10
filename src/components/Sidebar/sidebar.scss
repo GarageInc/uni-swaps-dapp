@@ -1,0 +1,18 @@
+@import '~react-pro-sidebar/dist/scss/styles.scss';
+
+.pro-sidebar-inner {
+  background: none !important;
+
+  @media (max-width: 720px) {
+    background-color: #171725 !important;
+    background: radial-gradient(50% 50% at 50% 50%, #fc077d10 0%, rgba(255, 255, 255, 0) 100%);
+  }
+}
+
+.pro-sidebar-header {
+  border: none !important;
+}
+
+.pro-sidebar-footer {
+  border: none !important;
+}
